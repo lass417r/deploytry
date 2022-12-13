@@ -1,0 +1,20 @@
+.form {
+  padding-top: ;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.email_name {
+}
+
+.radiolist {
+}
+
+.input {
+  margin: 0.5rem 0;
+}
+
+.main {
+  padding-top: 2rem;
+}

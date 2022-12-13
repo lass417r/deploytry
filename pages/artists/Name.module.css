@@ -1,0 +1,104 @@
+.main {
+  margin: 0 auto;
+  width: 90%;
+  align-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 0.2fr;
+  grid-template-rows: 1fr 0.2fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.headline {
+  font-style: Bold;
+  font-size: 7em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 4px #79ac53;
+  margin: 3rem 0 3rem;
+  text-align: center;
+}
+
+.image {
+  position: relative;
+  height: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  align-self: center;
+  justify-self: center;
+}
+
+.underheadline {
+  font-size: 2em;
+  font-weight: bold;
+  color: #79ac53;
+  -webkit-text-fill-color: #79ac53;
+}
+
+.left {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 45ch;
+}
+
+.outerImage {
+  height: 450px;
+}
+
+.text {
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: left;
+  color: rgb(13, 13, 13);
+  margin: 10px 0;
+}
+
+.underheading {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #79ac53;
+  -webkit-text-fill-color: #79ac53;
+}
+
+.credits {
+  font-size: 0.7em;
+  line-height: 1.5;
+  text-align: left;
+  color: rgb(13, 13, 13);
+  margin: 0;
+  text-align: center;
+}
+
+.members {
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: left;
+  color: rgb(13, 13, 13);
+  margin: 10px 0;
+}
+
+/* Make the page responsive */
+@media (max-width: 600px) {
+  .headline {
+    font-size: 1.5em;
+  }
+
+  .underheadline {
+    font-size: 1.25em;
+  }
+
+  .text {
+    font-size: 0.9em;
+  }
+
+  .underheading {
+    font-size: 1em;
+  }
+
+  .members {
+    font-size: 0.9em;
+  }
+}
